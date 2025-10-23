@@ -12,17 +12,14 @@
         // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
         //   |   ESC   |    Q    |    W    |    E    |    R    |    T    |                       |    Y    |    U    |    I    |    O    |    P    |    Å    |
         //   |   TAB   |    A    |    S    |    D    |    F    |    G    |                       |    H    |    J    |    K    |    L    |    Ø    |    Æ    |
-        //   |  CTRL   |    Z    |    X    |    C    |    V    |    B    |  none   |   |  none   |    N    |    M    |    ,    |    .    |    -    |   CTRL  |
+        //   |  CTRL   |    Z    |    X    |    C    |    V    |    B    |                       |    N    |    M    |    ,    |    .    |    -    |   CTRL  |
         //                                 |  none   |   ALT   |   Nav   |  SHIFT  |   |  SPACE  |   Sym   |   BSPC  |   none  |   
             bindings = <
                 &kp ESC      &kp Q    &kp W    &kp E     &kp R     &kp T                             &kp Y     &kp U     &kp I         &kp O       &kp P         &kp NB_A_RING
                 &kp TAB      &kp A    &kp S    &kp D     &kp F     &kp G                             &kp H     &kp J     &kp K         &kp L       &kp NB_AE     &kp NB_O_SLASH
-                &sk LCTRL    &kp Z    &kp X    &kp C     &kp V     &kp B    &none         &none      &kp N     &kp M     &kp NB_COMMA  &kp NB_DOT  &kp NB_MINUS  &kp RCTRL    
-                                               &none     &kp LALT  &none    &kp LSHFT     &kp SPACE  &none     &kp BSPC  &none
-                                 &kp UP                                                                                            &kp UP
-                        &kp LEFT &sk LGUI  &kp RIGHT                                                                    &kp LEFT  &kp SPACE  &kp RIGHT
-                                 &kp DOWN                                                                                          &kp DOWN
-                    >;
+                &sk LCTRL    &kp Z    &kp X    &kp C     &kp V     &kp B                             &kp N     &kp M     &kp NB_COMMA  &kp NB_DOT  &kp NB_MINUS  &kp RCTRL    
+                                                         &kp LALT  &none    &kp LSHFT     &kp SPACE  &none     &kp BSPC
+            >;
         };
     };
 };
